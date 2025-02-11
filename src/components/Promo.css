@@ -1,0 +1,97 @@
+.promo{
+    margin:5% 2%;
+    display: grid;
+    gap: 40px;
+   
+}
+.heading{
+    display: flex;
+
+}
+
+.heading .fire{
+   margin-top: 25px;
+}
+.cards {
+    display: flex;
+    align-items: center;
+}
+
+.promo .card {
+    width: 500px;  
+    height: 400px; 
+    background: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8%;
+    text-align: center;
+    padding: 1%;
+}
+
+.promo .card1 {
+    width: 700px;  
+    height: 350px; 
+    background: url(../assets/deeliver-HcgCiIb6crE-unsplash\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8%;
+    text-align: center;
+}
+.promo .card1 .image{
+    margin-right: 350px;
+    filter: blur(2px); 
+}
+.promo .card2 {
+    width:700px;  
+    height: 350px; 
+    background: url(../assets/pexels-unkdevil-19331027\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8%;
+    text-align: center;
+}
+ .promo .card2 .images{
+    display: flex;
+    
+}
+.promo .card2 .image1{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.promo h1 {
+    font-size: 50px;
+}
+.promo .card h3{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.promo .card p{
+    font-size: 15px;
+}
+
+.promo .card .btn{ 
+    background: rgb(189, 2, 2);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+    font-family: 'Marhey';
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .promo .card button:hover {
+    background: white;
+    color: rgb(189, 2, 2);
+  }

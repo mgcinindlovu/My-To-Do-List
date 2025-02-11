@@ -1,0 +1,90 @@
+.find-us{
+    height: 100vh;
+    background: url(../assets/samuel-regan-asante-4vd1ETbplSk-unsplash\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin:0 3%;
+}
+.find-us h1 {
+    font-size: 47px;
+    padding-top: 250px;
+}
+.find-us .btns{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+
+.find-us .btns .btn1 {
+    background-color: rgb(187, 11, 11);
+    color: white;
+    border: none;
+    padding: 13px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    font-family: 'Marhey';
+    cursor: pointer;
+}
+
+.find-us .btns .btn1:hover {
+    background-color:white;
+    color: rgb(187, 11, 11);
+}
+.find-us .btns .btn2 {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    padding: 13px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 30px;
+    font-family: 'Marhey';
+    border-width: 3px;
+    cursor: pointer;
+}
+
+.find-us .btns .btn2:hover {
+    background-color: white;
+    color: rgb(187, 11, 11);
+    border-color: rgb(187, 11, 11);
+}
+.find-us .icons{
+    display: flex;
+    gap: 20px;
+justify-content: flex-end; 
+   margin-top: 5%;
+    padding-right: 3%;
+
+}
+
+.find-us .icon {
+    background-color: red;
+    border-radius: 50%;
+    padding:5px;
+    cursor:pointer;
+    color: white;
+}
+
+.find-us .icon:hover {
+    background-color: white;
+    color: red;
+    border-color: red;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+
+
+

@@ -1,0 +1,140 @@
+.AboutUs{
+    height: 150vh;
+    padding: 4%;
+}
+.AboutUs .card-cards{
+    display: grid;
+    gap: 80px;
+}
+
+.AboutUs .card-cards .cards{
+    display: flex;
+    gap: 20px; 
+}
+.AboutUs .card {
+    width: 400px;  
+    height: 550px; 
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 8%;
+    text-align: center;
+}
+ .AboutUs .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    transition: transform 0.3s;
+    transform: translateY(-5px);
+    transition: background-color 0.3s;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: color 0.3s;
+    color: black;
+    transition: border 0.3s;
+    border: 1px solid rgb(255, 196, 0);
+    transition: margin-bottom 0.3s;
+    margin-bottom: 20px;
+    transition: padding-bottom 0.3s;
+    padding-bottom: 10%;
+    transition: background 0.3s;
+    background: white;
+    cursor: pointer;
+  
+}
+.AboutUs .card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 10px;
+}
+ .price{
+    display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+}
+.AboutUs .heading{
+    font-size: 35px;
+  
+}
+.AboutUs .Heading{
+    margin:5% 0 ;
+   text-align: end;
+}
+.price h3{
+    font-size: 20px;
+  
+}
+.price p{
+    margin-top: 25%;
+    font-size: 20px;
+    color: gold;
+}
+.price_tag{
+    display: flex;
+    gap: 5px;
+
+}
+.AboutUs .description{
+    margin:0 8%;
+    font-size: 14px;
+   
+}
+.AboutUs button{
+    background: gold;
+    padding:4% 15%;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Marhey';
+    text-align: center;
+}
+.AboutUs button:hover{
+    background: rgb(180, 164, 73);
+    color: gold;
+    cursor: pointer;
+}
+.AboutUs .Heading {
+    display: flex;
+    justify-content: flex-end;
+}
+.AboutUs .Heading .icon{
+    padding-top: 25px;
+    cursor: pointer;
+
+}
+/* Modal Styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    background-color:gold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .modal button:hover {
+    background-color: rgb(180, 164, 73);
+  }
+  
+

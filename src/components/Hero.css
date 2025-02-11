@@ -1,0 +1,157 @@
+.hero_container{
+    background: url(../assets/pexels-jonathanborba-2983101\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    margin:20px;
+    color:white;
+text-align: center;
+}
+.hero_container .hero-content {
+    padding-top: 12%;
+}
+
+.hero_container h1 {
+    font-size: 47px;
+    
+}
+
+.hero_container p {
+    font-size: 16px;
+  
+}
+
+.hero_container .btn{
+    background: rgb(189, 2, 2);
+    color: white;
+ padding:20px 45px;
+ border-radius: 30px;
+font-size: 15px;
+border: none;
+font-family: 'Marhey';
+margin-top: 1%;
+cursor: pointer;
+}
+
+.hero_container .btn:hover {
+    background: white;
+    color:rgb(189, 2, 2);
+    border-color: rgb(248, 5, 5);
+    border-width: 5px;
+}
+.hero_container .image  {
+    margin: 2px 0 0 350px;
+}
+.fire-container {
+  display: flex;
+    margin-top: 2%;
+}
+
+.fire-container .fire {
+margin-left: 46%;
+margin-top: 2%;
+
+}
+/* For tablets and smaller screens */
+@media screen and (max-width: 1024px) {
+    .hero_container {
+        background-size: cover;
+        background-position: center;
+        height: 80vh;
+    }
+
+    .hero_container h1 {
+        font-size: 40px;
+    }
+
+    .hero_container p {
+        font-size: 14px;
+    }
+
+    .hero_container .btn {
+        padding: 15px 35px;
+        font-size: 14px;
+    }
+
+    .hero_container .image {
+        margin: 10px auto;
+    }
+
+    .fire-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fire-container .fire {
+        margin: 0;
+    }
+}
+
+/* For mobile screens */
+@media screen and (max-width: 768px) {
+    .hero_container {
+        height: 70vh;
+        background-position: center;
+    }
+
+    .hero_container h1 {
+        font-size: 32px;
+    }
+
+    .hero_container p {
+        font-size: 12px;
+    }
+
+    .hero_container .btn {
+        padding: 15px 30px;
+        font-size: 13px;
+    }
+
+    .hero_container .image {
+        margin: 15px auto;
+    }
+
+    .fire-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fire-container .fire {
+        margin: 0;
+    }
+}
+
+/* For small mobile screens */
+@media screen and (max-width: 480px) {
+    .hero_container {
+        height: 60vh;
+    }
+
+    .hero_container h1 {
+        font-size: 28px;
+    }
+
+    .hero_container p {
+        font-size: 10px;
+    }
+
+    .hero_container .btn {
+        padding: 12px 25px;
+        font-size: 12px;
+    }
+
+    .hero_container .image {
+        margin: 10px auto;
+    }
+
+    .fire-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fire-container .fire {
+        margin: 0;
+    }
+}
+
