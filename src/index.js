@@ -1,13 +1,14 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import { BrowserRouter as Router } from 'react-router-dom';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter
 import App from './App';
 
-const container = document.getElementById('root');
-const root = createRoot(container);
-
+// Create a root element and render the app wrapped with Router
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Router>
-    <App />
-  </Router>
+  <React.StrictMode>
+    <Router> {/* Wrap your app with Router */}
+      <App />
+    </Router>
+  </React.StrictMode>
 );
